@@ -86,3 +86,98 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #181818;
+  }
+  
+  .list {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-around;
+  }
+  
+  .list__item {
+    width: 9vw;
+    height: 5vh;
+  
+    background-color: #004faf;
+  }
+
+.box {
+    width: 10vh;
+    height: 10vh;
+    background-color: blue;
+}
+
+.box:hover {
+    background-color: red;
+}
+
+.input {
+    height: 5vh;
+    padding-left: 3vh;
+    border: 2px solid transparent;
+    margin-left: 2vh;
+}
+
+.input:focus {
+    border: green;
+}
+
+.button {
+    height: 5vh;
+    width: 11vh;
+    margin-left: 2vh;
+    border: 2px solid transparent;
+}
+
+.button:focus {
+    border-color: green;
+}
+
+/* .list__item:first-child {
+  background-color: #7126a0;
+} */
+
+/* .list__item:last-child {
+  background-color: #7126a0;
+} */
+
+/* .list__item:nth-child(odd) {
+  background-color: #7126a0;
+} */
+
+/* .list__item:nth-child(even) {
+  background-color: #7126a0;
+} */
+
+/* .list__item:nth-child(4) {
+  background-color: #7126a0;
+} */
+
+/* .list__item:nth-child(n+3) {
+  background-color: #7126a0;
+} */
+
+.list__item:nth-child(-n+3) {
+  background-color: #7126a0;
+} 
+
+/* .list__item:nth-child(3n+1) {
+  background-color: #7126a0;
+} */
+
+/* .list__item:nth-last-child(2) {
+  background-color: #7126a0;
+} */
